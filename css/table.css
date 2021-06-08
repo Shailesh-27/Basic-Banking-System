@@ -1,0 +1,41 @@
+.container{
+    margin-left: 300px;
+}
+h2{
+	font-size: 40px;
+    text-align: center;
+    padding-right: 300px;
+    color: blue;
+}
+table,th,td{
+	letter-spacing: 1px;
+	color: black;
+    border: 1px solid green;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+th{
+    padding: 6px;
+    color: white;
+    background-color: black;
+}
+tr:nth-child(even){
+    background-color: #eee;
+}
+tr:nth-child(odd){
+    background-color: #fff;
+}
+td{
+	text-align: center;
+    padding: 6px;
+}
+button{
+    padding: 2px;
+	background: #79aaf7;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: aqua;
+}
